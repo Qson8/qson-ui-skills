@@ -1,0 +1,5 @@
+name: qson_ui
+title: "qson-ui 总索引 - Qson UI 设计效果家族"
+description: "qson-ui 家族总索引: 当不确定用哪个分类, 或要收纳新效果, 或要盘点全部 UI 效果时用此 skill。分类效果本身分别在 qson_ui_popup 弹窗、qson_ui_layout 布局、qson_ui_cards 卡片按钮、qson_ui_feedback 提示、qson_ui_components 组件、qson_ui_transitions 转场六个独立 skill 里。"
+category: Work and knowledge
+include_in_prompt: false

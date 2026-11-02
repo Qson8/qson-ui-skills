@@ -1,0 +1,126 @@
+# qson-ui 家族注册表 - 每个分类是一个独立 skill (qson_ui_ 前缀), 本表在总索引 qson_ui 内维护
+# GitHub 项目名: qson-ui-skills
+# status: draft 只有描述 / verified-demo 有可预览 demo / production 已在真实项目用过
+effects:
+  - id: popup-sheets
+    category: popup
+    name_zh: 6种高级弹窗交互
+    name_en: Premium Popup Sheets
+    keywords: [弹窗, 弹层, 高级弹窗, popup, modal, bottom sheet, 玻璃面板, 毛玻璃, 圆环进度, 刻度尺, 照片抽屉, 翻面凭证, 下拉展开]
+    patterns: [frosted-glass-sheet, ring-progress-sheet, tick-ruler-sheet, photo-drawer-sheet, flip-voucher, pull-down-reveal]
+    platforms: [flutter, web, miniprogram]
+    status: verified-demo
+    source: "西瓜同学《App和小程序的高级交互》第13集, 2026-10-07, https://weixin.qq.com/sph/AYgiXHDvGP"
+    skill: qson_ui_popup
+    demo: "~/workspace/your_files/popup-sheets-demo/index.html"
+    added: 2026-11-01
+  - id: app-layouts
+    category: layout
+    name_zh: 高级审美布局
+    name_en: App Layouts
+    keywords: [布局, 排版, 错位, 大图主导, 非对称, 层叠, 留白, bento, hero, layout]
+    patterns: [stagger, scale-hero, asymmetry, overlap, whitespace, wide-caps-list, hero-overlay, black-hero, bento-grid, poster-dial, stacked-deck]
+    platforms: [flutter, web, miniprogram]
+    status: draft
+    source: "西瓜同学《高级交互》第3集 2026-09-02 + 第12集 2026-09-28, 抖音合集"
+    skill: qson_ui_layout
+    added: 2026-11-01
+  - id: card-button-interactions
+    category: cards
+    name_zh: 卡片与按钮交互
+    name_en: Card Button Interactions
+    keywords: [卡片, 按钮, 定点起源, 甩动翻页, 列表转网格, 筛选重排, 倾斜视差, 长按, 多选, card, button, tilt, fling]
+    patterns: [pop-origin, commit-button, fling-carousel, layout-shift, filter-relayout, tilt-parallax, peek-longpress, select-mode]
+    platforms: [flutter, web, miniprogram]
+    status: draft
+    source: "西瓜同学《高级交互》第4集, 2026-09-05, https://www.douyin.com/video/7681882195920833801"
+    skill: qson_ui_cards
+    added: 2026-11-01
+  - id: feedback-motion
+    category: feedback
+    name_zh: 高级提示动效
+    name_en: Feedback Motion
+    keywords: [提示, 红点, 撤销, 角标, 横幅, 未读, 连锁, 通知, feedback, badge, banner, undo]
+    patterns: [dot-expand, queue, undo-bar, badge-roll, banner-push, origin-panel, unread-divider, sync-counters]
+    platforms: [flutter, web, miniprogram]
+    status: draft
+    source: "西瓜同学《高级交互》第6集, 2026-09-12, https://www.douyin.com/video/7684496623849737523"
+    skill: qson_ui_feedback
+    added: 2026-11-01
+  - id: interaction-components
+    category: components
+    name_zh: 交互组件
+    name_en: Interaction Components
+    keywords: [组件, 搜索框展开, 图标变形, 步进器, 顶栏收起, 进度展开, 刻度调节, 分步选择, 数据联动, component, morph, stepper]
+    patterns: [circle-to-field, plus-panel, button-chain, path-morph, tab-indicator, stepper-button, inline-expand, collapsing-bar, progress-expand, ruler-adjust, step-picker, data-linkage]
+    platforms: [flutter, web, miniprogram]
+    status: draft
+    source: "西瓜同学《高级交互》第10集 2026-09-23 + 第16集 2026-10-17, 抖音合集 (circular-reveal 机制正主在 qson_ui_transitions, list-to-grid 正主在 qson_ui_cards)"
+    skill: qson_ui_components
+    added: 2026-11-01
+  - id: transitions-and-gestures
+    category: transitions
+    name_zh: 转场与手势
+    name_en: Transitions and Gestures
+    keywords: [转场, 手势, 圆形扩散, 扇形, 吸附, 惯性滚轮, 滑动分拣, 波形, 完成反馈, transition, gesture, fan, snap]
+    patterns: [done-burst, linked-state, stack-fan, snap-cards, inertia-wheel, circular-diffusion, photo-fan-in, fan-swipe-album, panel-park, thumbnail-to-ticket, swipe-sort, line-by-line-title, waveform-scrub, mini-disc-dock]
+    platforms: [flutter, web, miniprogram]
+    status: draft
+    source: "西瓜同学《高级交互》第14集 2026-10-11 + 第15集 2026-10-15, 抖音合集"
+    skill: qson_ui_transitions
+    added: 2026-11-01
+  - id: dashboard
+    category: dashboard
+    name_zh: Dashboard 风格、导航与布局交互
+    name_en: Dashboard Design System
+    keywords: [Dashboard, 数据看板, 后台, 管理系统, 侧边栏, sidebar, 后台菜单, 配色占比, 主题切换, 仪表盘布局, admin]
+    patterns: [minimal-business, dark-console, glassmorphism, big-color-blocks, fluorescent-accent, magazine-layout, content-driven, floating-rail, dual-rail, hover-expand-sidebar, transparent-topbar, right-rail-menu, icon-rail-title, reserved-interaction-layout, hero-module, horizontal-bands, kanban-columns, timeline-swimlanes, theme-token-switch]
+    platforms: [web]
+    status: draft
+    source: "西瓜同学《Dashboard高级设计与交互》第1-9集（页面仅显示月日）, 抖音合集"
+    skill: qson_ui_dashboard
+    added: 2026-11-01
+  - id: animated-icons
+    category: micro
+    name_zh: 动态图标
+    name_en: Animated Icons
+    keywords: [动态图标, 图标变形, 微交互, animated icons, Morphicons, Lordicon, 状态切换图标]
+    patterns: [morph-icons, feedback-icons]
+    platforms: [flutter, web, miniprogram]
+    status: draft
+    source: "西瓜同学《Skill实战》第17集（页面显示 9月24日）, 抖音合集"
+    skill: qson_ui_micro
+    added: 2026-11-01
+  - id: web-interactions
+    category: web
+    name_zh: Web 高级交互 10 种
+    name_en: Web Interactions
+    keywords: [Web交互, 网页交互, 滚动钉图, 自定义光标, 磁吸按钮, 导航底色跟随, 悬停预览, 圆形扩散换肤, web interactions]
+    patterns: [scroll-pin-hero, custom-cursor, magnetic-button, icon-expand-label, nav-indicator-follow, hover-invert-fill, stepped-slider, chart-scrub, hover-preview-image, circular-theme-reveal]
+    platforms: [web]
+    status: draft
+    source: "西瓜同学《Skill实战》第19集（页面显示 10月6日）, 抖音合集"
+    skill: qson_ui_web
+    added: 2026-11-01
+  - id: apple-style-principles
+    category: principles
+    name_zh: Apple 式审美原则
+    name_en: Apple Style Principles
+    keywords: [Apple式审美, 苹果风, 留白, 图片主角, 编辑式排版, 玻璃材质, 联动写法, 错峰节奏, apple style]
+    patterns: [whitespace-hierarchy, image-protagonist, editorial-layout, mode-consistency, glass-panel, linkage-sentence, batched-reveal, slice-stagger, reduced-motion-fallback]
+    platforms: [web, flutter, miniprogram]
+    status: draft
+    source: "西瓜同学《Skill实战》第20集（10月22日）+ 第21集（页面显示 6天前）, 抖音合集"
+    skill: qson_ui_principles
+    added: 2026-11-01
+  - id: ai-ui-workflow
+    category: workflow
+    name_zh: AI 做 UI 工作流
+    name_en: AI UI Workflow
+    keywords: [AI做UI, 工作流, 术语对齐, 去模板感, 审美锚定, 编码前检查, 交付校验, workflow, Impeccable, frontend-design]
+    patterns: [seven-step-workflow, terminology-alignment, direction-anchoring, brand-token-loading, before-after-aesthetic-check, pre-coding-checklist, delivery-checklist]
+    platforms: [web, flutter, miniprogram]
+    status: draft
+    source: "西瓜同学《Skill实战》第1/2/16/18集精看 + 21集目录, 抖音合集"
+    skill: qson_ui_workflow
+    added: 2026-11-01

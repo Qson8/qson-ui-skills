@@ -1,0 +1,5 @@
+name: qson_ui_components
+title: "qson-ui-components - 交互组件"
+description: "qson-ui-components: 交互组件 components 搜索框展开 图标变形 Path Morph 加号面板 按钮变步进器 顶栏随滚动收起 进度展开 刻度滑动调节 分步选择 数据面板联动, 实现与AI描述词。"
+category: Work and knowledge
+include_in_prompt: false
