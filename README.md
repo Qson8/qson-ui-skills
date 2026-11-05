@@ -87,6 +87,11 @@ cp -r qson-ui-skills/qson_ui_popup ~/.claude/skills/
 
 把视频链接或效果描述发给你的 AI 助手并说“收进 qson-ui”：新效果进对应分类的 references 并在总索引注册表登记；新分类按 `qson_ui_` 加短名新建独立 skill，命名与结构规范见总索引 `qson_ui` 的 SKILL.md。
 
+## 状态与站点
+
+- 公开仓库，持续收纳中；当前为总索引 + 11 个分类 skill、百余条目。
+- 个人站点产品页：https://blog.hanfucn.com/products/qson-ui-skills （上线后生效，内容与本 README 同步）
+
 ## 本地位置
 
 工作副本在 `~/workspace/custom-skills/qson_ui*`（日常收纳改那边）；本目录是发布仓库，内容为工作副本的同步快照，发布前先从工作副本同步一次再提交，避免两份漂移。
