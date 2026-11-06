@@ -113,6 +113,17 @@ effects:
     source: "西瓜同学《Skill实战》第20集（10月22日）+ 第21集（页面显示 6天前）, 抖音合集"
     skill: qson_ui_principles
     added: 2026-11-01
+  - id: loading-states
+    category: loading
+    name_zh: 加载状态三式
+    name_en: Loading States
+    keywords: [加载, 加载状态, 骨架屏, 扫光, skeleton, shimmer, 平滑进度条, 进度条, 模糊到清晰, blur in, 转圈, spinner, loading]
+    patterns: [skeleton-shimmer, smooth-progress, blur-in]
+    platforms: [flutter, web, miniprogram]
+    status: draft
+    source: "BeiYu 北煜《动廊图鉴》第1集, 2026-11-05, https://www.douyin.com/video/7704635591618514227 （明示值: 扫光 1500ms 循环 / 进度 600ms 缓动 / 模糊 14px→清晰 700ms）"
+    skill: qson_ui_loading
+    added: 2026-11-06
   - id: ai-ui-workflow
     category: workflow
     name_zh: AI 做 UI 工作流

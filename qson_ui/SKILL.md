@@ -32,6 +32,8 @@
 
 - Use `qson_ui_workflow` for the AI 做 UI 工作流 method including terminology alignment, anti template rules and checklists.
 
+- Use `qson_ui_loading` for 加载状态 including skeleton shimmer, smooth progress and blur in image reveal.
+
 - Read [the family registry](references/effects.yaml) for each sibling status, source and keywords.
 
 ## 收纳新效果

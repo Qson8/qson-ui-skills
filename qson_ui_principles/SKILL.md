@@ -8,6 +8,8 @@
 
 - Read [the Apple style reference](references/apple-style.md) for the full rules from episodes 20 and 21 before reviewing or generating a page.
 
+- 页面/界面评审（多角色评审、是否达标类问题）一律按 [设计成熟度评审标准](references/review-standard.md) 逐项打分：10 条 × 10 分、达标线 80、第 1/3/7 条为硬门槛。
+
 ## 静态审美规范（第20集）
 
 - Build hierarchy with whitespace first: generous empty space and a grid like Bento set the reading order before any decoration.

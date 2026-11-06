@@ -1,0 +1,5 @@
+name: qson_ui_loading
+title: "qson-ui-loading - 加载状态与骨架屏"
+description: "qson-ui-loading: 加载状态 加载动画 骨架屏 扫光骨架屏 skeleton shimmer 平滑进度条 progress bar 模糊到清晰 blur in 图片渐显 加载三秒 别只给转圈 spinner, 页面与图片加载动效选型与实现。"
+category: Work and knowledge
+include_in_prompt: false
