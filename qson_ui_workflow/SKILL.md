@@ -8,6 +8,8 @@
 
 - Read [the workflow reference](references/workflow.md) for the full method and [the checklist](references/checklist.md) before and after generation.
 
+- For the Codex executor toolkit, read [the Codex toolkit reference](references/codex-toolkit.md): six capability packs (Computer Use, Caveman, Playwright, Superpowers, office trio, hollandcut), the clarify-before-coding flow, isolated trial installs, and the restart-and-self-report verification.
+
 ## 工作流七步（第2/16/18集）
 
 - Prepare the skills first, then clarify what the page must do, then align effect terminology, then set the aesthetics, then motion, then code with restraint, then automated testing and fixing, in that order and without skipping.
