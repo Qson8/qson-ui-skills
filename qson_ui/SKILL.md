@@ -33,6 +33,7 @@
 - Use `qson_ui_workflow` for the AI 做 UI 工作流 method including terminology alignment, anti template rules and checklists.
 
 - Use `qson_ui_loading` for 加载状态 including skeleton shimmer, smooth progress and blur in image reveal.
+- Use `qson_ui_glass` for 液态玻璃 liquid glass with true refraction, chromatic fringe, glass tab bar, jelly toggle, magnifier slider and glass card.
 
 - Read [the family registry](references/effects.yaml) for each sibling status, source and keywords.
 

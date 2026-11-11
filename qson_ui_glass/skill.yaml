@@ -1,0 +1,5 @@
+name: qson_ui_glass
+title: "qson-ui-glass - 液态玻璃（真折射）"
+description: "qson-ui-glass: 液态玻璃 liquid glass 真折射 色散 细白边 玻璃拟态 iOS26 WebGL SDF 着色器 弹簧果冻 标签栏 开关 滑块放大镜 玻璃卡片, 苹果液态玻璃的实现级选型与参数。"
+category: Design and media
+include_in_prompt: false

@@ -124,14 +124,25 @@ effects:
     source: "BeiYu 北煜《动廊图鉴》第1集, 2026-11-05, https://www.douyin.com/video/7704635591618514227 （明示值: 扫光 1500ms 循环 / 进度 600ms 缓动 / 模糊 14px→清晰 700ms）"
     skill: qson_ui_loading
     added: 2026-11-06
+  - id: liquid-glass
+    category: glass
+    name_zh: 液态玻璃（真折射）
+    name_en: Liquid Glass
+    keywords: [液态玻璃, liquid glass, 真折射, 色散, 玻璃拟态, glassmorphism, iOS26, WebGL, SDF, 细白边, 果冻开关, 玻璃标签栏, 滑块放大镜]
+    patterns: [true-refraction, chromatic-fringe, thin-white-edge, glass-tab-bar, jelly-toggle, magnifier-slider, glass-card, sdf-merge]
+    platforms: [web, flutter]
+    status: draft
+    source: "画心人 LiquidGlass-Pack v2.0 (MIT), 配套视频《液态玻璃第二期: 真折射+四个控件》, 源包参数原值: strength 48 / chroma 12 / band 60 / blur 1.2 / 白边 1.5px, 弹簧 k300 ζ0.5 等; Qson 2026-11-11 令改造收录"
+    skill: qson_ui_glass
+    added: 2026-11-11
   - id: ai-ui-workflow
     category: workflow
     name_zh: AI 做 UI 工作流
     name_en: AI UI Workflow
-    keywords: [AI做UI, 工作流, 术语对齐, 去模板感, 审美锚定, 编码前检查, 交付校验, workflow, Impeccable, frontend-design]
+    keywords: [AI做UI, 工作流, 术语对齐, 去模板感, 审美锚定, 编码前检查, 交付校验, workflow, Impeccable, frontend-design, Codex插件, Superpowers, Caveman, Computer Use, hollandcut, 先问清再动手]
     patterns: [seven-step-workflow, terminology-alignment, direction-anchoring, brand-token-loading, before-after-aesthetic-check, pre-coding-checklist, delivery-checklist]
     platforms: [web, flutter, miniprogram]
     status: draft
-    source: "西瓜同学《Skill实战》第1/2/16/18集精看 + 21集目录, 抖音合集"
+    source: "西瓜同学《Skill实战》第1/2/16/18集精看 + 21集目录, 抖音合集; 浩兰德《Codex新手必装的6个神级插件》工具条, 小红书 2026-10-08"
     skill: qson_ui_workflow
     added: 2026-11-01
