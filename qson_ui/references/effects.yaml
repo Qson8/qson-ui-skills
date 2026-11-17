@@ -6,11 +6,11 @@ effects:
     category: popup
     name_zh: 6种高级弹窗交互
     name_en: Premium Popup Sheets
-    keywords: [弹窗, 弹层, 高级弹窗, popup, modal, bottom sheet, 玻璃面板, 毛玻璃, 圆环进度, 刻度尺, 照片抽屉, 翻面凭证, 下拉展开]
-    patterns: [frosted-glass-sheet, ring-progress-sheet, tick-ruler-sheet, photo-drawer-sheet, flip-voucher, pull-down-reveal]
+    keywords: [弹窗, 弹层, 高级弹窗, popup, modal, bottom sheet, 玻璃面板, 毛玻璃, 圆环进度, 刻度尺, 照片抽屉, 翻面凭证, 下拉展开, 半屏联动, 汇总联动]
+    patterns: [frosted-glass-sheet, ring-progress-sheet, tick-ruler-sheet, photo-drawer-sheet, flip-voucher, pull-down-reveal, half-sheet-linked]
     platforms: [flutter, web, miniprogram]
     status: verified-demo
-    source: "西瓜同学《App和小程序的高级交互》第13集, 2026-10-07, https://weixin.qq.com/sph/AYgiXHDvGP"
+    source: "西瓜同学《App和小程序的高级交互》第13集, 2026-10-07, https://weixin.qq.com/sph/AYgiXHDvGP; 第20集补收半屏联动 2026-11-17, https://www.douyin.com/video/7708983103909399834 （明示值: 打开 500ms / 模式切换 450ms）"
     skill: qson_ui_popup
     demo: "~/workspace/your_files/popup-sheets-demo/index.html"
     added: 2026-11-01
@@ -40,33 +40,33 @@ effects:
     category: feedback
     name_zh: 高级提示动效
     name_en: Feedback Motion
-    keywords: [提示, 红点, 撤销, 角标, 横幅, 未读, 连锁, 通知, feedback, badge, banner, undo]
-    patterns: [dot-expand, queue, undo-bar, badge-roll, banner-push, origin-panel, unread-divider, sync-counters]
+    keywords: [提示, 红点, 撤销, 角标, 横幅, 未读, 连锁, 通知, feedback, badge, banner, undo, 完成态, 数值联动, 发布反馈]
+    patterns: [dot-expand, queue, undo-bar, badge-roll, banner-push, origin-panel, unread-divider, sync-counters, complete-undo, compose-loop]
     platforms: [flutter, web, miniprogram]
     status: draft
-    source: "西瓜同学《高级交互》第6集, 2026-09-12, https://www.douyin.com/video/7684496623849737523"
+    source: "西瓜同学《高级交互》第6集, 2026-09-12, https://www.douyin.com/video/7684496623849737523; 第20集补收 2 式 2026-11-17, https://www.douyin.com/video/7708983103909399834"
     skill: qson_ui_feedback
     added: 2026-11-01
   - id: interaction-components
     category: components
     name_zh: 交互组件
     name_en: Interaction Components
-    keywords: [组件, 搜索框展开, 图标变形, 步进器, 顶栏收起, 进度展开, 刻度调节, 分步选择, 数据联动, component, morph, stepper]
-    patterns: [circle-to-field, plus-panel, button-chain, path-morph, tab-indicator, stepper-button, inline-expand, collapsing-bar, progress-expand, ruler-adjust, step-picker, data-linkage]
+    keywords: [组件, 搜索框展开, 图标变形, 步进器, 顶栏收起, 进度展开, 刻度调节, 分步选择, 数据联动, component, morph, stepper, 预设联动, 滑杆联动, 重置]
+    patterns: [circle-to-field, plus-panel, button-chain, path-morph, tab-indicator, stepper-button, inline-expand, collapsing-bar, progress-expand, ruler-adjust, step-picker, data-linkage, preset-link]
     platforms: [flutter, web, miniprogram]
     status: draft
-    source: "西瓜同学《高级交互》第10集 2026-09-23 + 第16集 2026-10-17, 抖音合集 (circular-reveal 机制正主在 qson_ui_transitions, list-to-grid 正主在 qson_ui_cards)"
+    source: "西瓜同学《高级交互》第10集 2026-09-23 + 第16集 2026-10-17, 抖音合集 (circular-reveal 机制正主在 qson_ui_transitions, list-to-grid 正主在 qson_ui_cards); 第20集补收预设联动 2026-11-17, https://www.douyin.com/video/7708983103909399834 （明示值: 滑杆移动 350ms）"
     skill: qson_ui_components
     added: 2026-11-01
   - id: transitions-and-gestures
     category: transitions
     name_zh: 转场与手势
     name_en: Transitions and Gestures
-    keywords: [转场, 手势, 圆形扩散, 扇形, 吸附, 惯性滚轮, 滑动分拣, 波形, 完成反馈, transition, gesture, fan, snap]
-    patterns: [done-burst, linked-state, stack-fan, snap-cards, inertia-wheel, circular-diffusion, photo-fan-in, fan-swipe-album, panel-park, thumbnail-to-ticket, swipe-sort, line-by-line-title, waveform-scrub, mini-disc-dock]
+    keywords: [转场, 手势, 圆形扩散, 扇形, 吸附, 惯性滚轮, 滑动分拣, 波形, 完成反馈, transition, gesture, fan, snap, 共享元素, 书卡展开, 左滑移除]
+    patterns: [done-burst, linked-state, stack-fan, snap-cards, inertia-wheel, circular-diffusion, photo-fan-in, fan-swipe-album, panel-park, thumbnail-to-ticket, swipe-sort, line-by-line-title, waveform-scrub, mini-disc-dock, shared-element-book, swipe-remove]
     platforms: [flutter, web, miniprogram]
     status: draft
-    source: "西瓜同学《高级交互》第14集 2026-10-11 + 第15集 2026-10-15, 抖音合集"
+    source: "西瓜同学《高级交互》第14集 2026-10-11 + 第15集 2026-10-15, 抖音合集; 第20集补收 2 式 2026-11-17, https://www.douyin.com/video/7708983103909399834 （明示值: 展开 700ms / 归位 520ms / 露出 84px / 阈值 42px / 移除 320ms）"
     skill: qson_ui_transitions
     added: 2026-11-01
   - id: dashboard

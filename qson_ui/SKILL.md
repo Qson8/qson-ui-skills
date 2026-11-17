@@ -10,17 +10,17 @@
 
 ## 家族成员
 
-- Use `qson_ui_popup` for 弹窗, bottom sheet and modal effects with six popup patterns.
+- Use `qson_ui_popup` for 弹窗, bottom sheet and modal effects with six popup patterns and a linked half sheet.
 
 - Use `qson_ui_layout` for 布局 and 排版 with five layout principles and six layout recipes.
 
 - Use `qson_ui_cards` for 卡片 and 按钮 interactions including origin pop, tilt, long press and multi select.
 
-- Use `qson_ui_feedback` for 提示, 红点, 角标 and 撤销 feedback motion.
+- Use `qson_ui_feedback` for 提示, 红点, 角标 and 撤销 feedback motion, including complete-undo and compose loop.
 
-- Use `qson_ui_components` for 交互组件 including search expand, path morph, stepper and ruler adjust.
+- Use `qson_ui_components` for 交互组件 including search expand, path morph, stepper, ruler adjust and preset slider linkage.
 
-- Use `qson_ui_transitions` for 转场 and 手势 including circular diffusion, fan, snap and swipe sort.
+- Use `qson_ui_transitions` for 转场 and 手势 including circular diffusion, fan, snap, swipe sort, shared element and swipe remove.
 
 - Use `qson_ui_dashboard` for Dashboard, 数据看板 and 后台系统 including style systems, sidebars, menus and admin layouts.
 
