@@ -20,20 +20,20 @@
 
 - Use `qson_ui_components` for 交互组件 including search expand, path morph, stepper, ruler adjust and preset slider linkage.
 
-- Use `qson_ui_transitions` for 转场 and 手势 including circular diffusion, fan, snap, swipe sort, shared element and swipe remove.
+- Use `qson_ui_transitions` for 转场 and 手势 including circular diffusion, fan, snap, swipe sort, shared element, swipe remove, glass icon dock and button expand detail.
 
 - Use `qson_ui_dashboard` for Dashboard, 数据看板 and 后台系统 including style systems, sidebars, menus and admin layouts.
 
 - Use `qson_ui_micro` for 动态图标 and 微交互 including morphing icons and feedback icons.
 
-- Use `qson_ui_web` for Web 高级交互 including scroll pinning, custom cursor, magnetic buttons and hover previews.
+- Use `qson_ui_web` for Web 高级交互 including scroll pinning, custom cursor, magnetic buttons, hover previews, cursor spotlight and border beam.
 
 - Use `qson_ui_principles` for Apple 式审美原则 including whitespace, image first layout and linkage writing.
 
 - Use `qson_ui_workflow` for the AI 做 UI 工作流 method including terminology alignment, anti template rules and checklists.
 
 - Use `qson_ui_loading` for 加载状态 including skeleton shimmer, smooth progress and blur in image reveal.
-- Use `qson_ui_glass` for 液态玻璃 liquid glass with true refraction, chromatic fringe, glass tab bar, jelly toggle, magnifier slider and glass card.
+- Use `qson_ui_glass` for 液态玻璃 liquid glass with true refraction, chromatic fringe, glass tab bar, jelly toggle, magnifier slider, glass card and glass select capsule.
 
 - Read [the family registry](references/effects.yaml) for each sibling status, source and keywords.
 

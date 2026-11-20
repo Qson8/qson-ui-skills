@@ -2,7 +2,7 @@
 
 ## 使用
 
-- Invoke this skill when the user wants liquid glass, iOS 26 style glassmorphism with real refraction, glass tab bars, toggles, sliders or cards, or mentions qson_ui_glass.
+- Invoke this skill when the user wants liquid glass, iOS 26 style glassmorphism with real refraction, glass tab bars, toggles, sliders, cards or select capsules, or mentions qson_ui_glass.
 
 - This is a standalone skill in the qson-ui-skills family. The family index is the `qson_ui` skill.
 
@@ -25,6 +25,10 @@
 - Glass slider: while dragging, the knob scales up and becomes a magnifier, sampling the background scaled toward its centre.
 
 - Glass card: a draggable glass plate; wherever it moves, the background under it bends. Glass only reads on a background with content.
+
+## 补收：玻璃选中胶囊（短耳兔AI，2026-11-20）
+
+- Glass select capsule: the current menu item sits on a frosted-glass capsule; tapping another item glides the capsule to it and lets it rebound gently on arrival. Click-driven, not drag-driven like the tab bar indicator; the glide spring reuses the tab bar's k 300 / ζ 0.5 as a library recommendation (the video states no timing). See the effects reference.
 
 ## 纪律
 

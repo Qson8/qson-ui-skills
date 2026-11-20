@@ -23,3 +23,8 @@
 - Stepped Slider that ticks value by value and snaps on release, a Chart Scrub where a guide line and value follow the pointer across bars, Hover Preview Images that float beside a text list row, and Circular Theme Reveal that expands the new theme from the click point.
 
 - Read [Web Interactions](references/web-interactions.md) for the sequence and marked values of each pattern.
+
+## 补收（短耳兔AI，2026-11-20）
+
+- Cursor Spotlight Tilt: a frosted-glass card shows a soft radial glow that follows the cursor inside the card, and tilts slightly toward the cursor (max 4°, video-stated), easing back flat on leave.
+- Border Beam: a band of light travels along a card's edge to spotlight a recommended plan or new feature.

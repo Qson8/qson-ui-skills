@@ -62,11 +62,11 @@ effects:
     category: transitions
     name_zh: 转场与手势
     name_en: Transitions and Gestures
-    keywords: [转场, 手势, 圆形扩散, 扇形, 吸附, 惯性滚轮, 滑动分拣, 波形, 完成反馈, transition, gesture, fan, snap, 共享元素, 书卡展开, 左滑移除]
-    patterns: [done-burst, linked-state, stack-fan, snap-cards, inertia-wheel, circular-diffusion, photo-fan-in, fan-swipe-album, panel-park, thumbnail-to-ticket, swipe-sort, line-by-line-title, waveform-scrub, mini-disc-dock, shared-element-book, swipe-remove]
+    keywords: [转场, 手势, 圆形扩散, 扇形, 吸附, 惯性滚轮, 滑动分拣, 波形, 完成反馈, transition, gesture, fan, snap, 共享元素, 书卡展开, 左滑移除, 玻璃停靠栏, 点击展开, 原位放大]
+    patterns: [done-burst, linked-state, stack-fan, snap-cards, inertia-wheel, circular-diffusion, photo-fan-in, fan-swipe-album, panel-park, thumbnail-to-ticket, swipe-sort, line-by-line-title, waveform-scrub, mini-disc-dock, shared-element-book, swipe-remove, button-expand-detail, glass-icon-dock]
     platforms: [flutter, web, miniprogram]
     status: draft
-    source: "西瓜同学《高级交互》第14集 2026-10-11 + 第15集 2026-10-15, 抖音合集; 第20集补收 2 式 2026-11-17, https://www.douyin.com/video/7708983103909399834 （明示值: 展开 700ms / 归位 520ms / 露出 84px / 阈值 42px / 移除 320ms）"
+    source: "西瓜同学《高级交互》第14集 2026-10-11 + 第15集 2026-10-15, 抖音合集; 第20集补收 2 式 2026-11-17, https://www.douyin.com/video/7708983103909399834 （明示值: 展开 700ms / 归位 520ms / 露出 84px / 阈值 42px / 移除 320ms）; 短耳兔AI《5个AI交互动效提示词复制就能直接用》2026-11-20 补收 2 式, https://www.douyin.com/video/7710091675955370354 （时长视频未明示, 为本库建议值）"
     skill: qson_ui_transitions
     added: 2026-11-01
   - id: dashboard
@@ -95,11 +95,11 @@ effects:
     category: web
     name_zh: Web 高级交互 10 种
     name_en: Web Interactions
-    keywords: [Web交互, 网页交互, 滚动钉图, 自定义光标, 磁吸按钮, 导航底色跟随, 悬停预览, 圆形扩散换肤, web interactions]
-    patterns: [scroll-pin-hero, custom-cursor, magnetic-button, icon-expand-label, nav-indicator-follow, hover-invert-fill, stepped-slider, chart-scrub, hover-preview-image, circular-theme-reveal]
+    keywords: [Web交互, 网页交互, 滚动钉图, 自定义光标, 磁吸按钮, 导航底色跟随, 悬停预览, 圆形扩散换肤, web interactions, 聚光, 边缘流光, Border Beam]
+    patterns: [scroll-pin-hero, custom-cursor, magnetic-button, icon-expand-label, nav-indicator-follow, hover-invert-fill, stepped-slider, chart-scrub, hover-preview-image, circular-theme-reveal, cursor-spotlight-tilt, border-beam]
     platforms: [web]
     status: draft
-    source: "西瓜同学《Skill实战》第19集（页面显示 10月6日）, 抖音合集"
+    source: "西瓜同学《Skill实战》第19集（页面显示 10月6日）, 抖音合集; 短耳兔AI《5个AI交互动效提示词复制就能直接用》2026-11-20 补收 2 式, https://www.douyin.com/video/7710091675955370354 （倾斜上限 4 度为视频明示, 其余时长为本库建议值）"
     skill: qson_ui_web
     added: 2026-11-01
   - id: apple-style-principles
@@ -128,11 +128,11 @@ effects:
     category: glass
     name_zh: 液态玻璃（真折射）
     name_en: Liquid Glass
-    keywords: [液态玻璃, liquid glass, 真折射, 色散, 玻璃拟态, glassmorphism, iOS26, WebGL, SDF, 细白边, 果冻开关, 玻璃标签栏, 滑块放大镜]
-    patterns: [true-refraction, chromatic-fringe, thin-white-edge, glass-tab-bar, jelly-toggle, magnifier-slider, glass-card, sdf-merge]
+    keywords: [液态玻璃, liquid glass, 真折射, 色散, 玻璃拟态, glassmorphism, iOS26, WebGL, SDF, 细白边, 果冻开关, 玻璃标签栏, 滑块放大镜, 选中胶囊, 玻璃选中]
+    patterns: [true-refraction, chromatic-fringe, thin-white-edge, glass-tab-bar, jelly-toggle, magnifier-slider, glass-card, sdf-merge, glass-select-capsule]
     platforms: [web, flutter]
     status: draft
-    source: "画心人 LiquidGlass-Pack v2.0 (MIT), 配套视频《液态玻璃第二期: 真折射+四个控件》, 源包参数原值: strength 48 / chroma 12 / band 60 / blur 1.2 / 白边 1.5px, 弹簧 k300 ζ0.5 等; Qson 2026-11-11 令改造收录"
+    source: "画心人 LiquidGlass-Pack v2.0 (MIT), 配套视频《液态玻璃第二期: 真折射+四个控件》, 源包参数原值: strength 48 / chroma 12 / band 60 / blur 1.2 / 白边 1.5px, 弹簧 k300 ζ0.5 等; Qson 2026-11-11 令改造收录; 短耳兔AI《5个AI交互动效提示词复制就能直接用》2026-11-20 补收选中胶囊, https://www.douyin.com/video/7710091675955370354 （时长视频未明示, 弹簧 k300 ζ0.5 为本库建议值）"
     skill: qson_ui_glass
     added: 2026-11-11
   - id: ai-ui-workflow
